@@ -25,3 +25,68 @@
     background-color: #2553E9;
     border-radius: 0.25rem;
 }
+
+
+.text-left{
+    position: relative;
+    top: 10rem;
+}
+
+.text-left> h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #2553E9;
+}
+
+.text-left>p{
+    color:lightslategray;
+}
+
+.button{
+   position: relative;
+   top: 12rem;
+   left: 1rem;
+}
+
+@media screen and (max-width: 450px){
+    .text-left> h1 {
+        font-size: 3.4rem;
+        
+        
+    }
+    .text-left{
+        position: relative;
+        left: .5rem;
+    }
+    .button{
+        position: relative;
+        
+        left: 1.5rem;
+    } 
+
+    
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width :786px){
+
+    .text-left> h1 {
+        font-size: 7rem;
+        
+        
+    }
+    .block{
+    position: relative;
+    top: 7rem;
+
+    }
+
+}
+
