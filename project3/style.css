@@ -74,7 +74,24 @@
    left: 1rem;
 }
 
-@media screen and (max-width: 450px){
+
+section .section-content .container h1{
+    position: absolute;
+    top: 40rem;
+    left: 5rem;
+}
+
+.card{
+    align-items: center;
+    margin: 2rem;
+}
+
+.group{
+    position: relative;
+    top: 30rem;
+}
+
+@media screen and (max-width: 550px){
     .text-left> h1 {
         font-size: 3.4rem;
         
@@ -89,6 +106,21 @@
         
         left: 1.5rem;
     } 
+    section .section-content .container h1{
+        position: relative;
+        top: 20rem;
+        left: 1rem;
+    
+    }
+    .group{
+       
+        top: 20rem;
+    }
+
+    .card{
+        width: 90%;
+    }
+    
 
     
 
@@ -101,7 +133,7 @@
 }
 
 
-@media only screen and (min-width: 600px) and (max-width :786px){
+@media only screen and (min-width: 600px) and (max-width :768px){
 
     .text-left> h1 {
         font-size: 7rem;
@@ -113,6 +145,29 @@
     top: 7rem;
 
     }
+    
+    section .section-content .container h1{
+        position: relative;
+        top: 25rem;
+        left: 1rem;
+    
+    }
+
+    .group{
+       
+        top: 25rem;
+    }
+    .card-group{
+        width: 95%;
+        justify-self: center;
+        margin: auto;
+    }
+
+   
+    
+
+    
+    
 
 }
 
@@ -124,6 +179,9 @@
         top: 5rem;
         left: 7rem;
     }
+    
+  
+    
    
 
     
