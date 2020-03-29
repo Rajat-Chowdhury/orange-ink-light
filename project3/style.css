@@ -44,6 +44,32 @@
     color:grey ;
 }
 
+.about .container .row .col h1{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.card-deck{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+.office .container .row-xs-1 .col h1{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.office .container .row-xs-1 .col p{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+#our-office{
+    margin-top: 5rem;
+}
 @media only screen and (max-width: 600px){
  .me-btn{   display : flex;
     justify-content: center;
