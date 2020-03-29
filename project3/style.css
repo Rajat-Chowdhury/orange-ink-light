@@ -3,30 +3,6 @@
 }
 
 
-/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
-.btn-primary {
-    color: #fff;
-    background-color:  #2553E9;
-    border-color:  #2553E9; /*set the color you want here*/
-}
-.btn-primary:hover{
-    color: #fff;
-    background-color:  rgb(31, 70, 199);
-    border-color:  #2553E9; /*set the color you want here*/
-}
-
-
-.btn-outline-primary {
-    color: #2553E9;
-    
-    
-    border-color:  #2553E9; /*set the color you want here*/
-}
-.btn-outline-primary:hover {
-    color: #fff;
-    background-color:  #2553E9;
-    border-color:  #2553E9; /*set the color you want here*/
-}
 
 
 
@@ -53,168 +29,30 @@
 }
 
 
-.text-left{
-    position: relative;
-    top: 10rem;
-}
-
-.text-left> h1 {
+.intro .container .row .col-sm-6 h1{
     font-size: 5rem;
     font-weight: bold;
-    color: #2553E9;
+    color:#2553E9 ;
+
+
+
 }
 
-.text-left>p{
-    color:lightslategray;
+.intro .container .row .col-sm-6 p{
+
+    font-size: 1rem;
+    color:grey ;
 }
 
-.button{
-   position: relative;
-   top: 12rem;
-   left: 1rem;
-}
-
-
-section .section-content .container h1{
-    position: absolute;
-    top: 40rem;
-    left: 5rem;
-}
-
-.card{
+@media only screen and (max-width: 600px){
+ .me-btn{   display : flex;
+    justify-content: center;
     align-items: center;
-    margin: 2rem;
-}
-
-.group{
-    position: relative;
-    top: 30rem;
-}
-
-@media screen and (max-width: 550px){
-    .text-left> h1 {
-        font-size: 3.4rem;
-        
-        
-    }
-    .text-left{
-        position: relative;
-        left: .5rem;
-    }
-    .button{
-        position: relative;
-        
-        left: 1.5rem;
-    } 
-    section .section-content .container h1{
-        position: relative;
-        top: 20rem;
-        left: 1rem;
-    
-    }
-    .group{
-       
-        top: 20rem;
-    }
-
-    .card{
-        width: 90%;
-    }
-
-
-    
-    
-    
-    
-
-    
-
-
-
-
-
-
-
-}
-
-
-@media only screen and (min-width: 600px) and (max-width :768px){
-
-    .text-left> h1 {
-        font-size: 7rem;
-        
-        
-    }
-    .block{
-    position: relative;
-    top: 7rem;
-
-    }
-    
-    section .section-content .container h1{
-        position: relative;
-        top: 25rem;
-        left: 1rem;
-    
-    }
-
-    .group{
-       
-        top: 25rem;
-    }
-    .card-group{
-        width: 95%;
-        justify-self: center;
-        margin: auto;
-    }
-
-   
-    
-
-    
     
 
 }
 
 
-/*ipad pro*/
-@media only screen and (min-width: 770px) and (max-width :1024px){
-
-    .group{
-       
-        top: 40rem;
-    }
-    
 
 
-
-
-}    
-
-
-@media only screen and (min-height:1080px){
-
-    .block{
-        position: absolute;
-        top: 5rem;
-        left: 7rem;
-    }
-    
-    .group{
-       
-        top: 45rem;
-    }
-    
-
-    section.about>div.section-content>div.container>h1
-    {
-        left: 8rem;
-
-    }
-  
-    
-   
-
-    
-
-} 
+}
