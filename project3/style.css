@@ -2,6 +2,27 @@
     font-family: 'product sans';
 }
 
+.btn-primary {
+    color: #fff;
+    background-color:  #2553E9;
+    border-color:  #2553E9; /*set the color you want here*/
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color:  rgb(31, 70, 199);
+    border-color:  #2553E9; /*set the color you want here*/
+}
+.btn-outline-primary {
+    color: #2553E9;
+    
+    
+    border-color:  #2553E9; /*set the color you want here*/
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color:  #2553E9;
+    border-color:  #2553E9; /*set the color you want here*/
+}
 
 
 
@@ -70,6 +91,10 @@
 #our-office{
     margin-top: 5rem;
 }
+
+
+
+
 @media only screen and (max-width: 600px){
  .me-btn{   display : flex;
     justify-content: center;
