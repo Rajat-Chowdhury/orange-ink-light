@@ -8,11 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <title>Hello, world!</title>
   </head>
   <body>
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-default sticky-top container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-default sticky-top container-fluid-fluid">
         <a class="navbar-brand" href="#">
             <img src="images\Group 3.png" width="40" height="30" class="d-inline-block align-top" alt="">
             Orange Ink
@@ -35,10 +36,10 @@
                   <a class="nav-link" href="#our-office">Our Office</a>
                   </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Our Projects</a>
+                <a class="nav-link" href="#our-projects">Our Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact-us">Contact Us</a>
             </li>
             
           </ul>
@@ -49,7 +50,7 @@
 
 
       <section class="intro">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row justify-content-around align-items-center">
             <div class="col-sm-6 justify-content-start align-items-center">
               <h1  >Who are we?</h1>
@@ -58,8 +59,8 @@
                 <br>Need a website,app or logo? Contact Us.
               </p>
               <div class="me-btn">
-                <div class="row ">
-                  <div class=" col-xs-6 ">
+                <div class="row " id="me-padding">
+                  <div class=" col-xs-6  ">
                     <button type="button" class="btn btn-primary ">Contact us</button>
                   
                     <button type="button" class="btn btn-outline-primary ">Look at our work</button>
@@ -79,7 +80,7 @@
 
 
 <section class="about" id="about-us">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row"> 
       <div class="col">
         <h1>About Us</h1>
@@ -159,15 +160,15 @@
 
 
 <section class="office" id="our-office">
-  <div class="container">
-    <div class="row-xs-1">
+  <div class="container-fluid">
+    <div class="row">
       <div class="col">
         <h1>Our Office</h1>
         <p>We are currently working from home.
           <br>Hang in there, it's coming soon
         </p>
       </div>
-      <div class="col">
+      <div class="row">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -199,6 +200,184 @@
   </div>
 </section>
 
+
+
+
+<section class="project" id="our-projects">
+  <div class="container-fluid">
+    <div class="row"> 
+      <div class="col">
+        <h1 id="project-header">Our Projects</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/ad/15/69/ad1569d8370f8e4a53d75210005fa5db.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Project Name</h5>
+              <p class="card-text">Project description
+              </p>
+
+              <a href="" class="btn btn-primary"> View Project</a>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/ad/15/69/ad1569d8370f8e4a53d75210005fa5db.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Project Name</h5>
+              <p class="card-text">Project description
+              </p>
+              <a href="" class="btn btn-primary"> View Project</a>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/ad/15/69/ad1569d8370f8e4a53d75210005fa5db.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Project Name</h5>
+              <p class="card-text">Project description
+              </p>
+              <a href="" class="btn btn-primary"> View Project</a>
+              
+            </div>
+          </div>
+         
+        </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+
+    <section class="feedback">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col"> 
+            <h1 id="client">Client Feedback</h1>
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="card mb-3  " >
+            <div class="row no-gutters">
+              <div class="col-2 d-flex align-items-center ">
+                <img src="https://assets-ouch.icons8.com/preview/921/cdd912b0-27a4-48be-bc91-0aec7570dbce.png" class="card-img" alt="...">
+              </div>
+              <div class="col-10 d-flex align-items-center">
+                <div class="card-body pt-0 pb-0">
+                  <h5 class="card-title d-flex align-items-center">Client Name</h5>
+                  <p class="card-text d-flex align-items-center">Client feeedback .......................... </p>
+                  <p class="card-text d-flex align-items-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="card mb-3  " >
+            <div class="row no-gutters">
+              <div class="col-2 d-flex align-items-center ">
+                <img src="https://assets-ouch.icons8.com/preview/921/cdd912b0-27a4-48be-bc91-0aec7570dbce.png" class="card-img" alt="...">
+              </div>
+              <div class="col-10 d-flex align-items-center">
+                <div class="card-body pt-0 pb-0">
+                  <h5 class="card-title d-flex align-items-center">Client Name</h5>
+                  <p class="card-text d-flex align-items-center">Client feeedback .......................... </p>
+                  <p class="card-text d-flex align-items-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="card mb-3  " >
+            <div class="row no-gutters">
+              <div class="col-2 d-flex align-items-center ">
+                <img src="https://assets-ouch.icons8.com/preview/921/cdd912b0-27a4-48be-bc91-0aec7570dbce.png" class="card-img" alt="...">
+              </div>
+              <div class="col-10 d-flex align-items-center ">
+                <div class="card-body pt-0 pb-0">
+                  <h5 class="card-title d-flex align-items-center">Client Name</h5>
+                  <p class="card-text d-flex align-items-center">Client feeedback .......................... </p>
+                  <p class="card-text d-flex align-items-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+      </div>
+    </section>
+
+
+    <section class="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="row">
+          <div class="col-1 offset-1 d-flex align-items-center">
+            <h5>Name
+
+            </h5>
+          </div>
+          <div class="col-8">
+            <input type="Name" class="form-control" id="exampleFormControlInput1" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 offset-1 d-flex align-items-center">
+            <h5>Email:
+
+            </h5>
+          </div>
+          <div class="col-8">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 offset-1 d-flex align-items-center">
+            <h5>Subject:
+
+            </h5>
+          </div>
+          <div class="col-8">
+            <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Define type of issue" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 offset-1 d-flex align-items-center">
+            <h5>Message:
+
+            </h5>
+          </div>
+          <div class="col-8">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description"></textarea>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-1 offset-1">
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+      </div>
+      </div>
+      <button type="button" class="btn btn-outline-primary">Chat with us</button>
+    </section>
+
+
+    <footer class="footer">
+      <a href="#"><i class="fab fa-facebook-square  px-2 pt-4 px-lg-3"></i></a>
+      <a href="#"><i class="fab fa-twitter  px-2 pt-4 px-lg-3"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in  px-2 pt-4 px-lg-3"></i></a>
+      <a href="#"><i class="fab fa-instagram  px-2 pt-4 px-lg-3"></i></a>
+      <a href="#"><i class="fab fa-github  px-2 pt-4 px-lg-3"></i></a>
+      <p class="pt-2">Copyright © OrangeInk 2020 • Design By Rajat • Developed by Oindrila</p>
+   </footer>
      
 
 
